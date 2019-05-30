@@ -1,0 +1,23 @@
+li a {
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    /* border-top: 1px solid #ffffff; */
+    padding: 12px;
+    background: #2C5463;
+    margin: 0px;
+    /* white-space: nowrap; */
+}
+a:hover { color: greenyellow;
+    text-decoration: none;
+}
+ul li a:hover { background: #617F8A; }
+        li:hover ul { 
+            display: flex; 
+        }
+        li:hover li { 
+            float: left;
+            font-size: 17px;
+        }
+        li:hover a { background: #617F8A; }
+        li:hover li a:hover { background: #95A9B1; }

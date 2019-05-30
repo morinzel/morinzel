@@ -1,0 +1,74 @@
+/* body {
+    background-image: url(../img/bg1.jpg);
+} */
+
+h2 {
+    color: darkcyan;
+    font-family: sans-serif;
+  }
+  h2:hover {
+    color: darkgrey;
+  }
+  p {
+      font-family: fantasy;
+      color: gray;
+      /* border: 5px solid burlywood; */
+  }
+  p:hover{
+    color: violet;
+  }
+  p {
+      line-height: 50px;
+      font-weight: bold;
+      font-size: 100%;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  img {
+      float: right;
+  }
+  .active {
+      position: absolute;
+      cursor: pointer;
+      /* background-image: ; */
+      font-size: 1em;
+      border-radius: 3px;
+      border: 1px solid gray;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #2C5463;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color: darkkhaki;
+    }
+  
+  #footerline {
+      width: 100%;
+      overflow: hidden;
+      margin: 5px auto 10px auto;
+      text-align: center;
+  }
+  
+  #footer {
+      max-width: 980px;
+      text-align: center;
+      margin: auto;
+  }
+  
